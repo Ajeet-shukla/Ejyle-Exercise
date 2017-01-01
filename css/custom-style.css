@@ -152,3 +152,83 @@
     margin:0;
 }
 
+
+
+
+
+@media only screen and (max-width:768px)
+{
+.avatar-area {
+  width: 28%;
+}
+.col-md-6.pull-left.mains {
+  margin-bottom: 20px;
+}
+
+
+}
+
+
+@media only screen and (max-width:480px){
+.avatar-area {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+}
+.content {
+  width: 100%;
+  margin-top: 15px;
+}
+.ratings {
+  float: left;
+  width: 45%;
+}
+.rights {
+  float: right;
+  width: 50%;
+}	
+}
+@media only screen and (max-width:767px) and (min-width:481px){
+.avatar-area {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+}
+.content {
+  width: 100%;
+  margin-top: 15px;
+}
+.ratings {
+  float: left;
+  width: 45%;
+}
+.rights {
+  float: right;
+  width: 50%;
+}	
+.mains .avatar-area .fa.fa-heart-o {
+  left: 130px;
+}	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (max-width:360px){
+.ratings {
+  float: left;
+  width: 50%;
+  padding: 0;
+}
+.mains .avatar-area .fa.fa-heart-o {
+  right: -5px;
+}	
+.list-group {
+  margin: 2.5%;
+}
+	
+}
